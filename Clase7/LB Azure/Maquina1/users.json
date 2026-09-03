@@ -1,0 +1,27 @@
+{
+   "Maquina" : {
+       "vm" : "Ejemplo Maquina Virtual Azure #1",
+       "saludo" : "!Bienvenido a la Maquina Virtual Azure #1!",
+       "id": 0
+    },
+    "user1" : {
+       "name" : "Estudiante 1",
+       "password" : "password_1",
+       "profession" : "teacher_1",
+       "id": 1
+    },
+    
+    "user2" : {
+       "name" : "Profesor 1",
+       "password" : "password_1",
+       "profession" : "librarian_1",
+       "id": 2
+    },
+    
+    "user3" : {
+       "name" : "Director 1",
+       "password" : "password_1",
+       "profession" : "clerk_1",
+       "id": 3
+    }
+ }

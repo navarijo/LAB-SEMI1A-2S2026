@@ -1,0 +1,117 @@
+.Registro{
+    background-image: url('../img/fondo.jpg');
+    /* background-image: url('https://images7.alphacoders.com/904/thumb-1920-904942.png'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.grid-registro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.caja-registro{
+    background-color: rgba(100, 225, 255, 0.8);
+    /* padding: 20px; */
+    border-radius: 10px;
+    height: auto;
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 1;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    align-items: center;
+}
+
+.title-registro{
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    
+    color:white;
+    text-shadow: 5px 5px 5px #11cec4;    
+
+    grid-column: 2/span 3;
+    grid-row: 1/span 1;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.register-nombres{
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    padding: 20px 20px 0px 20px;
+}
+
+.register-email{
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    padding: 20px 20px 0px 20px;
+}
+
+.register-dpi{
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+    padding: 20px 20px 0px 20px;
+}
+
+.register-password{
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
+    padding: 20px 20px 0px 20px;
+}
+
+.register-confirm{
+    grid-column: 1 / span 1;
+    grid-row: 5 / span 1;
+    padding: 20px 20px 20px 20px;
+}
+
+input{
+    height: 2em;
+}
+
+.register-ingress{
+    grid-column: 2 / span 1;
+    grid-row: 6 / span 1;
+    padding: 20px 20px 20px 20px;
+    justify-self: center;
+    align-self: center;
+}
+
+.register-log{
+    grid-column: 1 / span 1;
+    grid-row: 6 / span 1;
+    padding: 20px 20px 20px 20px;
+    justify-self: center;
+    align-self: center;
+}
+
+.grid-escaneo-registro {
+    grid-row: 1 / span 5;
+    padding: 20px 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+.btn-camara-registro {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
+    align-self: center;
+    justify-self: start;
+}
+
+.btn-import-registro {
+    grid-column: 3 / span 3;
+    grid-row: 1 / span 1;
+    align-self: center;
+    justify-self: end;
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,8 @@
+http://localhost:5000/sintetizar
+
+{
+  "text": "Hola, esta es una prueba de voz con Amazon Polly"
+}
+
+Sitio
+https://base64.guru/converter/decode/audio
